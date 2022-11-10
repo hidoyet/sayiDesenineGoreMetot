@@ -6,9 +6,9 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);
-		System.out.print("Sayıyı giriniz: ");
+		System.out.print("SayÄ±yÄ± giriniz: ");
 		int num=scanner.nextInt();
-		System.out.print("Kaçlı desen olacak: ");
+		System.out.print("KaÃ§lÄ± desen olacak: ");
 		int patNum=scanner.nextInt();
 		int temp=num;
 		patternMinus(num, patNum,temp);
